@@ -1,6 +1,6 @@
 # Titanic_Survivor_Prediction
 
-This was one of my first project wehn I set my foot in the Machine Learning Domain, 
+This was one of my first project in the Machine Learning Domain, 
 
 Information regarding the Dataset:
 
