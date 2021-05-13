@@ -2,15 +2,6 @@
 
 This was one of my first project wehn I set my foot in the Machine Learning Domain, 
 
-1. Extracted the Data inta a DataFrame.
-2. Perfromed EDA for the different features to check how they ar correlated.
-3. Imputed the missing values and dropped 'Cabin  column for the missing values which can't be imputed, because a major chunk of missing values were missing from the feature.
-4. Performed One Hot Encoding for the categorical features ' Pclass', 'Sex','Embarked',Ticket'.
-5. Dropped the irrelevent features which won't be used anymore.
-6. As the data give was separate for the train set an test set, assigned the proper features for X and y.
-7. Created a Machine Learning Model using Logostic Regression earlier and then followed by scling the vlaues using MinMaxScaler, followed by creating a model with RandomForestClassifier Algorithm using n_estimators=600 just to verify the differences, encountered that the Random Forest Classifier performed better than that of the Logistic Regressor.  
-8. Exported the results to the csv file to document the same.
-
 Information regarding the Dataset:
 
 Data Dictionary: 
@@ -41,3 +32,15 @@ parch: The dataset defines family relations in this way...
 Parent = mother, father
 Child = daughter, son, stepdaughter, stepson
 Some children travelled only with a nanny, therefore parch=0 for them
+
+Steps for Execution:
+
+1. Extracted the Data inta a DataFrame.
+2. Perfromed EDA for the different features to check how they ar correlated.
+3. Imputed the missing values and dropped 'Cabin  column for the missing values which can't be imputed, because a major chunk of missing values were missing from the feature.
+4. Performed One Hot Encoding for the categorical features ' Pclass', 'Sex','Embarked',Ticket'.
+5. Dropped the irrelevent features which won't be used anymore.
+6. As the data give was separate for the train set an test set, assigned the proper features for X and y.
+7. Created a Machine Learning Model using Logostic Regression earlier and then followed by scaling the values using MinMaxScaler.
+8. Created a seomodel with RandomForestClassifier Algorithm using n_estimators=600 just to check howRandom Forest Classifier performed as compared to Logistic Regressor.  
+9. Exported the results to the csv file.
